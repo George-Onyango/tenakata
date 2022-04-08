@@ -9,26 +9,28 @@
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
         android:layout_height="600dp"
-        android:id="@+id/fragmentcontainer"/>
+        android:id="@+id/fragmentcontainer"
+        android:name="com.example.tenakataproject.Details"
+        tools:layout="@layout/fragment_details" />
 
     <Button
         android:id="@+id/btnStudent"
-        android:layout_width="141dp"
-        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="38dp"
         android:layout_marginBottom="50dp"
-        android:text="Add Student" />
+        android:text="@string/add_student" />
 
     <Button
         android:id="@+id/btnList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="38dp"
         android:layout_marginBottom="50dp"
-        android:text="View Student"
+        android:text="@string/view_student"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentEnd="true"/>
 
     
 </RelativeLayout>
